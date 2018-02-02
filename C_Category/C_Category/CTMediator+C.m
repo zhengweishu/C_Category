@@ -10,4 +10,8 @@
 
 @implementation CTMediator (C)
 
+- (UIViewController *)C_aViewController {
+    return [self performTarget:@"C" action:@"viewController" params:nil shouldCacheTarget:NO];
+}
+
 @end

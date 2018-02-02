@@ -10,4 +10,6 @@
 
 @interface CTMediator (C)
 
+- (UIViewController *)C_aViewController;
+
 @end
